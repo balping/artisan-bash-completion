@@ -23,7 +23,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Balping\\ArtisanBashCompletion\\": "src/",
+			"Balping\\ArtisanBashCompletion\\": "src/"
 		}
 	},
 	"extra": {
