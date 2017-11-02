@@ -1,10 +1,23 @@
-<?php namespace App\Console\Commands;
+<?php
+
+/*
+	This file is originally the work of
+	Russel Waters (https://github.com/argakiig) and
+	Jan Hansen (https://github.com/janka)
+
+	They haven't specified any license for
+	ther works, so
+	GPL 3.0 does not apply to this file!
+
+ */
+
+namespace Balping\ArtisanBashCompletion;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
-class listForBash extends Command {
+class ListForBash extends Command {
 
   /**
 	 * The console command name.

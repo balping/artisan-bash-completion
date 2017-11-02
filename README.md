@@ -1,24 +1,26 @@
-Updated for Laravel 5 Artisan CLI!
---------------------------
-Original project https://github.com/janka/artisanBashCompletion
+Artisan Bash Completion
+=======================
 
+Original projecs:
+* https://github.com/janka/artisanBashCompletion
+* https://github.com/argakiig/artisanBashCompletion
 
-artisanBashCompletion
-=====================
+This adds bash completion for Laravel 5.5 artisan CLI.
 
-This adds bash completion for Laravel 5s artisan CLI.
+## Install
 
-- Put "listForBash.php" in app/Console/Commands/ and register it in app/Console/Commands/Kernel.php under $commands as  `\App\Console\Commands\listForBash::class,`
+```
+composer install balping/artisan-bash-completion
+```
 
-- Make artisan executable with `chmod +x artisan`
+This package works with package auto-discovery, so you don't need to register a service provider.
 
-- Create an alias for the php artisan command with the likes of `echo 'alias artisan="php artisan"' >> .bash_profile`
+Create an alias for the php artisan command with the likes of `echo 'alias artisan="php artisan"' >> ~/.bash_profile`
 
-- Put the file "artisan" in /etc/bash_completion.d/ and remember to source it with `. /etc/bash_completion.d/artisan` (or source every completion script with `. /etc/bash_completion`) if it does not happen already on your system.
+Put the file `artisan` (found in the root of this repo) to `/etc/bash_completion.d/` and remember to source it with `. /etc/bash_completion.d/artisan` (or source every completion script with `. /etc/bash_completion`) if it does not happen already on your system.
 
 Now use `artisan ` and start tabbing away...
 
-Tested on Ubuntu and php 5.6
+## Lincense
 
-Have fun...
-
+Service Provider licensed under GPL v3. GPL doesn't apply to other files.

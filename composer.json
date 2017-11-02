@@ -1,0 +1,37 @@
+{
+	"name": "balping/artisan-bash-completion",
+	"description": "Adds bash completion for Laravel 5.5 artisan CLI.",
+	"keywords": ["laravel", "artisan", "bash", "completion"],
+    "type": "library",
+	"require": {
+		"illuminate/console": "^5.5.0",
+		"illuminate/support": "^5.5.0"
+	},
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Balázs Dura-Kovács"
+		},
+		{
+			"name": "Russel Waters",
+			"homepage": "https://github.com/argakiig"
+		},
+		{
+			"name": "Jan Hansen",
+			"homepage": "https://github.com/janka"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Balping\\ArtisanBashCompletion\\": "src/",
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Balping\\ArtisanBashCompletion\\ServiceProvider"
+			]
+		}
+	}
+
+}
