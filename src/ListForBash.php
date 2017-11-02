@@ -48,7 +48,7 @@ class ListForBash extends Command {
 	 *
 	 * @return void
 	 */
-	public function fire()
+	public function handle()
 	{
 		$commandTyped = $this->argument('commandTyped');
 
