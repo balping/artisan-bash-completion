@@ -1,7 +1,7 @@
 Artisan Bash Completion
 =======================
 
-Original projecs:
+Original projects:
 * https://github.com/janka/artisanBashCompletion
 * https://github.com/argakiig/artisanBashCompletion
 
