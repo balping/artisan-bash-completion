@@ -1,3 +1,10 @@
+## Moved to GitLab
+
+**Warning**: This project has been moved to GitLab: https://gitlab.com/balping/artisan-bash-completion
+
+----
+
+
 Artisan Bash Completion
 =======================
 
